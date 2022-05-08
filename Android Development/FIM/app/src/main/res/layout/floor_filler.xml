@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/floorLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="33dp"
+        android:layout_height="19dp"
+        android:layout_marginTop="16dp"
+        android:text="Floor:"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="11sp"
+        app:layout_constraintEnd_toStartOf="@+id/tvFloorType"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="61dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="8dp"
+        android:text="W.Resistant:"
+        android:textColor="#000000"
+        android:textSize="11sp"
+        app:layout_constraintEnd_toStartOf="@+id/tvWaterResistant"
+        app:layout_constraintTop_toBottomOf="@+id/textView20" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="46dp"
+        android:layout_height="19dp"
+        android:layout_marginTop="8dp"
+        android:text="W. Proof:"
+        android:textColor="#000000"
+        android:textSize="11sp"
+        app:layout_constraintEnd_toStartOf="@+id/tvWaterproof"
+        app:layout_constraintTop_toBottomOf="@+id/textView22" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="31dp"
+        android:layout_height="19dp"
+        android:layout_marginTop="16dp"
+        android:text="Price:"
+        android:textColor="#000000"
+        android:textSize="11sp"
+        app:layout_constraintEnd_toStartOf="@+id/tvPrice"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="36dp"
+        android:layout_height="19dp"
+        android:layout_marginTop="8dp"
+        android:text="Stock:"
+        android:textColor="#000000"
+        android:textSize="11sp"
+        app:layout_constraintEnd_toStartOf="@+id/tvStock"
+        app:layout_constraintTop_toBottomOf="@+id/textView18" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="46dp"
+        android:layout_height="19dp"
+        android:layout_marginTop="9dp"
+        android:text="Species:"
+        android:textColor="#000000"
+        android:textSize="11sp"
+        app:layout_constraintEnd_toStartOf="@+id/tvSpecies"
+        app:layout_constraintTop_toBottomOf="@+id/textView19" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="36dp"
+        android:layout_height="19dp"
+        android:layout_marginTop="8dp"
+        android:text="Brand:"
+        android:textColor="#000000"
+        android:textSize="11sp"
+        app:layout_constraintEnd_toStartOf="@+id/tvBrand"
+        app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="27dp"
+        android:layout_height="19dp"
+        android:layout_marginTop="9dp"
+        android:text="Size:"
+        android:textColor="#000000"
+        android:textSize="11sp"
+        app:layout_constraintEnd_toStartOf="@+id/tvSize"
+        app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="33dp"
+        android:layout_height="19dp"
+        android:layout_marginTop="8dp"
+        android:text="Color:"
+        android:textColor="#000000"
+        android:textSize="11sp"
+        app:layout_constraintEnd_toStartOf="@+id/tvColor"
+        app:layout_constraintTop_toBottomOf="@+id/textView24" />
+
+    <ImageView
+        android:id="@+id/ivImg"
+        android:layout_width="99dp"
+        android:layout_height="138dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="409dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="8dp"
+        android:background="?android:attr/listDivider"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvType" />
+
+    <TextView
+        android:id="@+id/tvFloorType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="16dp"
+        android:text="TextView"
+        app:layout_constraintStart_toEndOf="@+id/ivImg"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="@+id/tvFloorType"
+        app:layout_constraintTop_toBottomOf="@+id/tvFloorType" />
+
+    <TextView
+        android:id="@+id/tvSize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="@+id/tvColor"
+        app:layout_constraintTop_toBottomOf="@+id/tvColor" />
+
+    <TextView
+        android:id="@+id/tvBrand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="@+id/tvSize"
+        app:layout_constraintTop_toBottomOf="@+id/tvSize" />
+
+    <TextView
+        android:id="@+id/tvType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="@+id/tvBrand"
+        app:layout_constraintTop_toBottomOf="@+id/tvBrand" />
+
+    <TextView
+        android:id="@+id/tvPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="159dp"
+        android:layout_marginTop="16dp"
+        android:text="TextView"
+        app:layout_constraintStart_toEndOf="@+id/textView24"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvStock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="@+id/tvPrice"
+        app:layout_constraintTop_toBottomOf="@+id/tvPrice" />
+
+    <TextView
+        android:id="@+id/tvSpecies"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="TextView"
+        app:layout_constraintStart_toEndOf="@+id/textView19"
+        app:layout_constraintTop_toBottomOf="@+id/tvStock" />
+
+    <TextView
+        android:id="@+id/tvWaterResistant"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="TextView"
+        app:layout_constraintStart_toEndOf="@+id/textView20"
+        app:layout_constraintTop_toBottomOf="@+id/tvSpecies" />
+
+    <TextView
+        android:id="@+id/tvWaterproof"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="TextView"
+        app:layout_constraintStart_toEndOf="@+id/textView22"
+        app:layout_constraintTop_toBottomOf="@+id/tvWaterResistant" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="32dp"
+        android:layout_height="19dp"
+        android:layout_marginTop="9dp"
+        android:text="Type:"
+        android:textColor="#000000"
+        android:textSize="11sp"
+        app:layout_constraintEnd_toStartOf="@+id/tvType"
+        app:layout_constraintTop_toBottomOf="@+id/textView17" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
